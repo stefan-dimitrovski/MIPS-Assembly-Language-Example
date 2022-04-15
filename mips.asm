@@ -1,8 +1,7 @@
 .data 
-	#eden integer e 4 byta pa za vkupno 20 integeri (4*20)
-	vektor1: .space 80 #alocira vkupna memorija za prviot vektor so maks 20 integeri
-	vektor2: .space 80 #alocira vkupna memorija za vtoriot vektor so maks 20 integeri
-	proizvodi: .space 80 #alocira vkupna memorija za nizata od proizvodi so maks 20 integers
+	vektor1: .space 80 #alocira vkupna memorija za prviot vektor
+	vektor2: .space 80 #alocira vkupna memorija za vtoriot vektor 
+	proizvodi: .space 80 #alocira vkupna memorija za nizata od proizvodi
 	index: .word 181258 #indeksot vo hex e 0002c40a
 	
 .text
